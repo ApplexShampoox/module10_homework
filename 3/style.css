@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+  font-size: 1.2rem;
+}
+
+.msg-style {
+  padding: 5px;
+  margin: 2px 0;
+  border: 5px solid #000;
+  border-radius: 5px;
+}
+
+.my-msg {
+  margin-left: auto;
+}
+
+.geo-link {
+  margin-left: auto;
+}
+
+.response-msg {
+  margin-right: auto;
+}
+
+button {
+  border: 5px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 5px solid #fff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  width: 80%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 5px solid #000;
+  border-radius: 10px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.app {
+  background: url(/3/123.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.msg {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#connect {
+  margin-right: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+#close {
+  margin-right: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+#send {
+  background-color: #000;
+  color: #fff;
+}
+
+#clear {
+  margin-right: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+#geo {
+  background-color: #000;
+  color: #fff;
+}
+
+#msg {
+  width: 100%;
+  border: 5px solid #000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+  min-height: 92%;
+  width: 100%;
+  border: 5px solid #000;
+  border-radius: 10px;
+  margin-right: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  word-break: break-all;
+}
+
+@media screen and (max-width: 1330px) {
+  .webs {
+    flex-direction: column;
+  }
+
+  #connect {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  #close {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  #clear {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}

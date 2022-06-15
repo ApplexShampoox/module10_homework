@@ -1,0 +1,22 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  cursor: pointer;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.btn-text {
+  font-size: 1.5em;
+  margin-right: 1em;
+}
+.btn-hide {
+  display: none;
+}
